@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+
+    <changeSet author="andreeadima" id="changelog-1.0zth17andrdima">
+        <createTable tableName="ZTH17ADDR_andrdima">
+            <column name="ADR_ID" type="NUMBER(6)" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="STREET" type="VARCHAR2(50)"/>
+            <column name="NO" type="NUMBER(6)"/>
+            <column name="CITY" type="VARCHAR2(30)"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
