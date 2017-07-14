@@ -1788,4 +1788,3 @@ INSERT INTO employees VALUES
     , 110
   );
   
-SELECT MAX( department_id) FROM departments
